@@ -60,7 +60,7 @@ kramdown:
 # disqus_username: ksbsoft
 
 # Gitalk
- gitalk:
+gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: d3b51bcd18feaae15889                            #生成的clientID
   clientSecret: b14bdde8edfd23ff5a13a97b0dfbb8261296b69f    #生成的clientSecret
