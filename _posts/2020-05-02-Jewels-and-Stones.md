@@ -3,6 +3,10 @@ layout: post
 title:  "Jewels and Stones"
 date:   2020-05-02 10:43 -0700
 categories: Leetcode solution
+tags:
+    - Leedcode
+    - Python
+    - String
 ---
 You're given strings  `J`representing the types of stones that are jewels, and  `S`representing the stones you have.  Each character in `S` is a type of stone you have.  You want to know how many of the stones you have are also jewels.
 
