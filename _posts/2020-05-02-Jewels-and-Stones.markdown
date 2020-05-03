@@ -2,7 +2,8 @@
 layout: post
 title:  "Jewels and Stones"
 date:   2020-05-02 22:43 -0700
-tags: 
+catalog: true
+tags:
     - leetcode
     - Python
     - string
