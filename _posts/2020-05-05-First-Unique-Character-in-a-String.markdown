@@ -2,7 +2,7 @@
 layout: post
 title:  "First Unique Character in a String"
 date:   2020-05-05 11:00 -0700
-catalog: true
+catalog: false
 tags:
     - leetcode
     - Python
