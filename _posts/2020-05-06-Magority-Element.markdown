@@ -48,6 +48,9 @@ class Solution:
             count += (1 if num == candidate else -1)
 
         return candidate
-## 视频讲解 YouTube
+
 ```
+
+## 视频讲解 YouTube
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MGJkXgQri8k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
