@@ -1,4 +1,13 @@
-
+---
+layout: post
+title:  "Majority Element"
+date:   2020-05-06 11:00 -0700
+catalog: false
+tags:
+    - leetcode
+    - Python
+    - array
+---
 
 ### Majority Element ###
 
