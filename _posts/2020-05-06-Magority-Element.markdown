@@ -1,8 +1,8 @@
- ---
+---
 layout: post
 title:  "Majority Element"
-date:   2020-05-06 11:00 -0700
-catalog: false
+date:   2020-05-06 22:43 -0700
+catalog: true
 tags:
     - Leetcode
     - Python
