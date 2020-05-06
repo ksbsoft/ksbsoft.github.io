@@ -43,3 +43,7 @@ class Solution:
                 return i
         return -1
 ```
+
+## 视频讲解 YouTube
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MDBhZhdn4xk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="embed-responsive-item" style="box-sizing: border-box; position: absolute; top: 0px; bottom: 0px; left: 0px; width: 706.5px; height: 397.406px; border: 0px;"></iframe>
