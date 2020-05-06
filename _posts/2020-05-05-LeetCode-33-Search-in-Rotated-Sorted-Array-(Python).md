@@ -42,9 +42,3 @@ class Solution:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vFCl7cb0VSk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="embed-responsive-item" style="box-sizing: border-box; position: absolute; top: 0px; bottom: 0px; left: 0px; width: 706.5px; height: 397.406px; border: 0px;"></iframe>
 
 ------
-
-- [PREVIOUS
-  LEETCODE 238 PRODUCT OF ARRAY EXCEPT SELF (PYTHON)](https://maxming0.github.io/2020/04/26/Product-of-Array-Except-Self/)
-- [NEXT
-  LEETCODE 136 SINGLE NUMBER (PYTHON)](https://maxming0.github.io/2020/04/26/Single-Number/)
-
