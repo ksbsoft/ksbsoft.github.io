@@ -33,6 +33,7 @@ Output: 2
 
 **Solution 1:**
 
+这个题的一种思路就是先把输入数组转化成一个Counter对象，然后把Counter对象中出现最多的找出来，或者把Counter中出现的值比list长度一半还大的找出来。
 ```
 from collections import Counter
 class Solution:
@@ -45,6 +46,8 @@ class Solution:
 ```
 
 **Solution 2:**
+
+这个题的另一个解决方法很巧，就是初始化一个计数器，然后遍历数组，如果计数器为0，则将当前值作为候选结果，如果不是0，则如果所遍历的值和候选值一样，将计数器加1，否则减一，遍历完后最后的候选值就是所找的元素，（假设一定存在该数）。
 ```
 class Solution:
     def majorityElement(self, nums):
