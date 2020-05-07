@@ -1,3 +1,14 @@
+---
+layout: post
+title:  Search in Rotated Sorted Array
+date:   2020-05-06 23:00 -0700
+catalog: false
+tags:
+    - leetcode
+    - Python
+    - array
+---
+
 # LeetCode 33 Search in Rotated Sorted Array (Python)
 
 ### 题目
