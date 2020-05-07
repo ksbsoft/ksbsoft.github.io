@@ -32,7 +32,7 @@ return 2.
 
 
 **Solution:**
-
+这题的思路是利用python的先把输入的字符串转化成Counter对象，然后顺序遍历原来的字符串，取出其中的字符，在看看所取出来的字符对应在Counter对象中的值，如果是1，说明找到了该字符，直接返回对应的index。
 ```
 from collections import Counter
 class Solution:

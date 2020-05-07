@@ -6,7 +6,7 @@ catalog: false
 tags:
     - leetcode
     - Python
-    - string
+    - array
 ---
 
 ### Majority Element ###
