@@ -31,7 +31,7 @@ Then 4 is the first bad version.
 
 这是binary serach的变形，这个数组的前半分都是false,后部分都是true，这个题转化为更通俗的说法就是找到第一个是ture的索引。
 
-'''
+```
 # The isBadVersion API is already defined for you.
 # @param version, an integer
 # @return a bool
@@ -52,7 +52,7 @@ class Solution:
             else:
                 left = mid + 1
         return left
-'''
+```
 
 ## 视频讲解 YouTube
 
