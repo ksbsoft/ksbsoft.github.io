@@ -52,6 +52,7 @@ Output: false
 2. Each node has a unique integer value from `1` to `100`.
 
  **Solution**
+ 
  这个题的基本思路是写一个方法，用这个方法返回对应某个节点的父节点和相应的度，然后分别输入x和y调用相应的函数，如果2次函数的返回值中度相同而且父节点不相同，则返回True,否则返回false。
  ```
 # Definition for a binary tree node.
