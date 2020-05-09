@@ -56,3 +56,24 @@ class Solution:
             return root;
         return self.searchBT(root.left, val) or self.searchBT(root.right, val)
  ```
+
+ 如果这是一个BST,那么我们可以根据BST的特点，所有左子树的值小于等于根节点，右之树的值大于根节点，稍微改一下上面的代码：
+
+  ```
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def searchBST(self, root: TreeNode, val: int) -> TreeNode:
+        if root == None:
+            return root
+        if root.val == val:
+            return root;
+        if root.val < val:
+            return self.searchBST(root.right, val)
+        else:
+            return self.searchBST(root.left, val) 
+ ```
