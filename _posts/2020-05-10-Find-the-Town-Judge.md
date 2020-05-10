@@ -61,12 +61,10 @@ Output: 3
 
 根据题意，作为一个法官，如果有N个人，那么必须要有N-1个人信任他，也就是在trust列表的第二个元素个数要等于N-1，而且，他不相信任何人，也就是说他不会出现在trust列表的第一个元素上。用个图形来表示，下图中1，2，4都信任3，而3不信任任何人，也就是入度-出度= N-1
 
-![image-20200510055115345](C:\Users\ronz\AppData\Roaming\Typora\typora-user-images\image-20200510055115345.png)
-
-
+![](\img\judge.png)
 
 ```
-class Solution:
+![judge](C:\ksbsoft.github.io\img\judge.png)class Solution:
     def findJudge(self, N: int, trust: List[List[int]]) -> int:
         ct= [0] * (N+1)
         for x, y in trust:
