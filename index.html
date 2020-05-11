@@ -31,7 +31,8 @@ description: ""
         <th>题解</th>
         <th>难度</th>
     </tr>
-    {% assign sorted = (paginator.posts| sort: 'date' desc) %}
+    {% assign sorted = (paginator.posts %}
+    <!-- | sort: 'date' desc) -->
     {% for post in sorted %}
     <tr>
         <td>
