@@ -3,6 +3,7 @@ layout: post
 title:  Check If It Is a Straight Line
 date:   2020-05-08 13:00 -0700
 catalog: false
+level:  Easy
 tags:
     - leetcode
     - Python

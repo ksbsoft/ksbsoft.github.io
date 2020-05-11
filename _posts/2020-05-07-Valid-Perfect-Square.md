@@ -3,6 +3,7 @@ layout: post
 title:  Valid Perfect Square
 date:   2020-05-09 02:00 -0700
 catalog: false
+level:  Easy
 tags:
     - leetcode
     - Python

@@ -3,6 +3,7 @@ layout: post
 title:  Search in Rotated Sorted Array
 date:   2020-05-06 23:00 -0700
 catalog: false
+level:  Easy
 tags:
     - leetcode
     - Python

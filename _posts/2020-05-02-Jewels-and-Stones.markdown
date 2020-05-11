@@ -2,6 +2,7 @@
 layout: post
 title:  "Jewels and Stones"
 date:   2020-05-02 22:43 -0700
+level:  Easy
 catalog: true
 tags:
     - leetcode

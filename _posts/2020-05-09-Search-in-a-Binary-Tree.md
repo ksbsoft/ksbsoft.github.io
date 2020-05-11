@@ -3,6 +3,7 @@ layout: post
 title:  Search in a Binary  Tree
 date:   2020-05-09 14:00 -0700
 catalog: false
+level:  Easy
 tags:
     - leetcode
     - Python
