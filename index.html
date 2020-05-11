@@ -1,9 +1,9 @@
 ---
 layout: page
-description: "Thinking will not overcome fear but action will."
+description: ""
 ---
 
-{% for post in paginator.posts %}
+<!-- {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">
@@ -23,9 +23,42 @@ description: "Thinking will not overcome fear but action will."
     </p>
 </div>
 <hr>
-{% endfor %}
+{% endfor %} -->
 
-<!-- Pager -->
+<table class="table table-striped">
+    <tr>
+        <th>题目</th>
+        <th>题解</th>
+        <th>难度</th>
+    </tr>
+    {% assign sorted = (paginator.posts | sort: 'number') %}
+    {% for post in sorted %}
+    <tr>
+        <td>
+            <a href="https://leetcode.com/problems/{{ post.lcurl }}"> {{ post.number }} </a>
+        </td>
+        <td>
+            <a href="{{ post.url | prepend: site.baseurl }}"> {{ post.title }}</a>
+        </td>
+        {% if post.level == "Easy" %}
+        <td><span class="label label-success">{{ post.level }}</span></td>
+        {% endif %}
+        {% if post.level == "Medium" %}
+        <td><span class="label label-warning">{{ post.level }}</span></td>
+        {% endif %}
+        {% if post.level == "Hard" %}
+        <td><span class="label label-danger">{{ post.level }}</span></td>
+        {% endif %}
+        {% if post.level == "na" %}
+        <td><span class="label label-primary">N/A</span></td>
+        {% endif %}
+    </tr>
+    {% endfor %}
+
+</table>
+
+
+<!-- Pager
 {% if paginator.total_pages > 1 %}
 <ul class="pager">
     {% if paginator.previous_page %}
@@ -39,4 +72,4 @@ description: "Thinking will not overcome fear but action will."
     </li>
     {% endif %}
 </ul>
-{% endif %}
+{% endif %} -->
