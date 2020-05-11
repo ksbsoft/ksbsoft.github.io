@@ -4,7 +4,7 @@ title:  Reverse a singly linked list
 date:   2020-05-09 02:00 -0700
 catalog: false
 level:  Easy
-number: 
+number: 206
 lcurl: Reverse-a-singly-linke- list
 tags:
     - leetcode

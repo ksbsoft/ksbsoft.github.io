@@ -5,7 +5,7 @@ date:   2020-05-09 14:00 -0700
 catalog: false
 level:  Medium
 number: 33
-lcurl: Search-in-a-Binary-Tree
+lcurl: search-in-a-binary-search-tree
 tags:
     - leetcode
     - Python
