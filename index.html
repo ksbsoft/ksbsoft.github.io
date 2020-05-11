@@ -27,16 +27,16 @@ description: ""
 
 <table class="table table-striped">
     <tr>
-        <!-- <th>题目</th> -->
+        <th>题目</th>
         <th>题解</th>
         <th>难度</th>
     </tr>
-    {% assign sorted = (paginator.posts ) %}
+    {% assign sorted = (paginator.posts| sort: 'number' ) %}
     {% for post in sorted %}
     <tr>
-     <!--    <td>
-            <a href="https://leetcode.com/problems/{{ post.lcurl }}"> {{ post.number }} </a> | sort: 'number'
-        </td> -->
+        <td>
+            <a href="https://leetcode.com/problems/{{ post.lcurl }}"> {{ post.number }} </a> 
+        </td>
         <td>
             <a href="{{ post.url | prepend: site.baseurl }}"> {{ post.title }}</a>
         </td>

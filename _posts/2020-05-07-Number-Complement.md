@@ -4,6 +4,8 @@ title:  Number Complement
 date:   2020-05-08 02:00 -0700
 catalog: false
 level:  Easy
+number: 476
+lcurl: Number-Complement
 tags:
     - leetcode
     - Python

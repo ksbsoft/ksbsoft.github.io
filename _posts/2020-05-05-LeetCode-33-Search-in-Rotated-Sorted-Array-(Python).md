@@ -4,6 +4,8 @@ title:  Search in Rotated Sorted Array
 date:   2020-05-06 23:00 -0700
 catalog: false
 level:  Easy
+number: 33
+lcurl: Search-in-Rotated-Sorted-Array
 tags:
     - leetcode
     - Python

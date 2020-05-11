@@ -3,6 +3,9 @@ layout: post
 title:  Find the Town Judge
 date:   2020-05-10 02:00 -0700
 catalog: false
+level:  Easy
+number: 997
+lcurl: Find-the-Town-Judge
 tags:
     - leetcode
     - Python

@@ -4,6 +4,8 @@ title:  "First Unique Character in a String"
 date:   2020-05-05 11:00 -0700
 catalog: false
 level:  Easy
+number: 387
+lcurl: First-Unique-Character-in-a-String
 tags:
     - leetcode
     - Python

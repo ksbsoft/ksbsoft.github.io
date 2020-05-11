@@ -4,6 +4,8 @@ title:  Ransom Note
 date:   2020-05-08 02:00 -0700
 catalog: false
 level:  Easy
+number: 383
+lcurl: Ransom-Note
 tags:
     - leetcode
     - Python

@@ -4,6 +4,8 @@ title:   Pascal's Triangle II
 date:   2020-05-09 15:00 -0700
 catalog: false
 level:  Easy
+number: 119
+lcurl: Pascal's-Triangle-II
 tags:
     - leetcode
     - Python

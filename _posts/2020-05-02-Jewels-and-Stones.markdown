@@ -3,6 +3,8 @@ layout: post
 title:  "Jewels and Stones"
 date:   2020-05-02 22:43 -0700
 level:  Easy
+number: 771
+lcurl: Jewels-and-Stones
 catalog: true
 tags:
     - leetcode

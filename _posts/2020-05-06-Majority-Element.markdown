@@ -4,6 +4,8 @@ title:  Majority Element
 date:   2020-05-06 11:00 -0700
 catalog: false
 level:  Easy
+number: 169
+lcurl: Majority-Element
 tags:
     - leetcode
     - Python

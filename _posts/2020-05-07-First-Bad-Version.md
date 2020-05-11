@@ -4,6 +4,8 @@ title:  First Bad Version
 date:   2020-05-08 02:00 -0700
 catalog: false
 level:  Easy
+number: 278
+lcurl: First-Bad-Version
 tags:
     - leetcode
     - Python

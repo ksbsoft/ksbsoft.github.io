@@ -3,7 +3,9 @@ layout: post
 title:  Search in a Binary  Tree
 date:   2020-05-09 14:00 -0700
 catalog: false
-level:  Easy
+level:  Medium
+number: 33
+lcurl: Search-in-a-Binary-Tree
 tags:
     - leetcode
     - Python

@@ -4,6 +4,8 @@ title:  Cousins in Binary Tree
 date:   2020-05-07 14:00 -0700
 catalog: false
 level:  Easy
+number: 993
+lcurl: Cousins-in-Binary-Tree
 tags:
     - leetcode
     - Python
