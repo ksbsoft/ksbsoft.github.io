@@ -30,6 +30,7 @@ Output: 10
 ```
 
  ## Solution
+ 
 在有序的数组中查找，我们采用二分的方法。起始位置left = 0， right = len(nums) -1.
 mid =(left  + right) //2.假如mid 是个偶数， 那么在它前面就是个偶数个数字，如果此时它和nums[mid+1]的 值相同，该把left 移到mid+1的位置。 同样，如果mid是奇数，如果此时。nums[mid]和nums[mid -1]相等，说明该找的数字在右边。此时也把left移到mid+1.其他情况，移动right到mid -1.
 
