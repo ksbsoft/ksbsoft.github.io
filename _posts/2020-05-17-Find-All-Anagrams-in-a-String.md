@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Find All Anagrams in a String
-date:   2020-05-7 03:00 -0700
+date:   2020-05-17 03:00 -0700
 catalog: false
 level:  Medium
 number: 438
