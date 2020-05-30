@@ -3,7 +3,7 @@ layout: post
 title:  Course Schedule
 date:   2020-05-29 04:00 -0700
 catalog: false
-level:  medium
+level:  Medium
 number: 207
 lcurl: Course-Schedule
 tags:

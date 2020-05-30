@@ -3,7 +3,7 @@ layout: post
 title:  K Closest Points to Origin
 date:   2020-05-30 04:00 -0700
 catalog: false
-level:  medium
+level:  Medium
 number: 973
 lcurl: k-closest-points-to-origin/
 tags:

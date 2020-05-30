@@ -3,7 +3,7 @@ layout: post
 title:  Counting Bits
 date:   2020-05-28 04:00 -0700
 catalog: false
-level:  medium
+level:  Medium
 number: 338
 lcurl: Counting-Bits
 tags:
